@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "auto_related_warnings"
+version = "1.0.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.9"
+auto-related = "^0.0.3"
+Django = "^3.1.7"
+djangorestframework = "^3.12.2"
+
+[tool.poetry.dev-dependencies]
+black = "20.8b1"
+pytest = "^6.2.1"
+pytest-django = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
